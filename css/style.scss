@@ -1,0 +1,46 @@
+.log-in{
+    background-color: rgb(136, 106, 136);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    .main-login {
+        padding: 40px;
+        background-color: #9ba1a0;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 30);
+        
+        h3{
+            text-align: center;
+            padding-bottom: 20px;
+            color: rgb(20, 20, 168);
+        }
+
+        .username{
+            margin-bottom: 30px;
+        }
+
+        input[type="text"] {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"], input[type="password"] {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+          
+    }
+
+    .submit-button {
+        margin-top: 20px;
+        background-color: rgb(37, 37, 163);
+        color: #fff;
+        border: none;
+        padding: 10px 70px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
